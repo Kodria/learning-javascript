@@ -33,5 +33,9 @@
   "bugs": {
     "url": "https://github.com/Kodria/platzi-ecmascript/issues"
   },
-  "homepage": "https://github.com/Kodria/platzi-ecmascript#readme"
+  "homepage": "https://github.com/Kodria/platzi-ecmascript#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "xmlhttprequest": "^1.8.0"
+  }
 }

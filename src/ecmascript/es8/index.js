@@ -1,5 +1,6 @@
 //-------------------- Objects -------------------------- //
 
+console.log('------------- Objects -------------');
 const data = {
   frontend: 'Camilo',
   backend: 'Nicolas',
@@ -13,17 +14,21 @@ const keys = Object.keys(data)
 console.log(entries)
 console.log(values)
 console.log(keys)
+console.log('------------- END Objects -------------');
 
 //-------------------- Padding -------------------------- //
 
+console.log('------------- Padding -------------');
 const string = 'hello'
 
 console.log(string.padStart(7, 'hi'))
 console.log(string.padEnd(12, ' ---'))
+console.log('------------- END Padding -------------');
 
 
 //-------------------- Async/Await -------------------------- //
 
+console.log('------------- Async/Await -------------');
 const helloWorld = (status) => {
   return new Promise((resolve, reject) => {
     if (status === true) {
@@ -60,3 +65,4 @@ anotherFunction(false)
 //   }).catch(err => {
 //     console.log(err)
 //   })
+console.log('------------- END Async/Await -------------');

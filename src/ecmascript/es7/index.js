@@ -1,5 +1,5 @@
 //-------------------- includes -------------------------- //
-
+console.log('------------- includes -------------');
 let numbers = [1,2,3,4,5,6,7]
 const valueToSearch = 9;
 // Version anterior - es6
@@ -17,11 +17,15 @@ if (numbers.includes(valueToSearch)) {
 } else {
   console.log('No se encuentra  - es7')
 }
+console.log('------------- END includes -------------');
+
 
 //-------------------- Operaciones en forma exponencial -------------------------- //
 
+console.log('------------- Operaciones en forma exponencial -------------');
 let base = 4
 let exponent = 3
 let result = base ** exponent
 
 console.log(result)
+console.log('------------- END Operaciones en forma exponencial -------------');

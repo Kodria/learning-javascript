@@ -4,7 +4,12 @@ const helloWorld = () => {
 }
 
 helloWorld()
-console.log(hello)
+try {
+  console.log(hello)
+} catch (e) {
+  console.log('Ocurrio un error al imprimir hello')
+  console.log(e)
+}
 
 var scope = "I am global"
 

@@ -4,7 +4,12 @@ const fruits = () => {
 }
 
 fruits()
-console.log(fruit)
+try {
+  console.log(fruit)
+} catch (e) {
+  console.log('Ocurrio un error al imprimir fruit')
+  console.log(e)
+}
 
 const anotherFunction = () => {
   var x = 1;

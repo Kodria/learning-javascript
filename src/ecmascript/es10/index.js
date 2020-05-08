@@ -1,3 +1,4 @@
+console.log('------------- es10 -------------');
 let array = [1,2,3, [1,2,3, [1,2,3]]]
 console.log(array.flat(2))
 
@@ -21,3 +22,4 @@ console.log(hello.trimEnd() )
 
 let entries = [['name', 'Nicolas'], ['age', 28]]
 console.log(Object.fromEntries(entries))
+console.log('------------- END es10 -------------');
