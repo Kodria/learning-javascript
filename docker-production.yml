@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  learning-javascript:
+    image: learning-javascript
+    build: .
+    environment:
+      NODE_ENV: production
+    stdin_open: true
+    tty: true
