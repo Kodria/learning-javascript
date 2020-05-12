@@ -1,4 +1,4 @@
-# Platzi JavaScript
+# Learning JavaScript
 
 Repositorio dedicado a realizar pruebas de JavaScript utilizando herramientas del Ecmascript
 
@@ -9,7 +9,7 @@ Para el funcionamiento del proyecto se utiliza Docker. A continuación la forma 
 ```
 
 # Iniciarlizar el contenedor / Si no existe lo crea
-docker-compose up -d
+docker-compose up -d --build
 
 # Compilar para producción
 docker-compose -f docker-production.yml up -d
@@ -24,7 +24,7 @@ docker-compose down
 
 ## Ecmascript versions
 
-Curso de ecmascript donde se presentan las funcionalidades de cada versión
+Funcionalidades de cada versión
 
 ```
 
@@ -36,9 +36,9 @@ docker-compose exec learning-javascript npm run ecmascript:es10
 
 ```
 
-## Asynchronisms Curse
+## Asincronismo
 
-Curso de asincronismo donde se enseña el uso de callbacks, promise, async/await
+Uso de callbacks, promise, async/await
 
 ```
 docker-compose exec learning-javascript npm run callback
@@ -52,9 +52,9 @@ docker-compose exec learning-javascript npm run async:challenge
 
 ```
 
-## Scope and Clousures
+## Scope & Clousures
 
-Curso de scope and clousures donde se enseña el uso de estos
+Scope & clousures
 
 ```
 docker-compose exec learning-javascript npm run closure:index
