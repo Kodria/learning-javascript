@@ -2,6 +2,8 @@
 
 Repositorio dedicado a realizar pruebas de JavaScript utilizando herramientas del Ecmascript
 
+#### Nota: Proyecto estrictamente educativo
+
 ## Instalación y configuración
 
 Para el funcionamiento del proyecto se utiliza Docker. A continuación la forma de inicializar
